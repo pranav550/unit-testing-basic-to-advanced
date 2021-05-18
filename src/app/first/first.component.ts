@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-first',
+  templateUrl: './first.component.html',
+  styleUrls: ['./first.component.css']
+})
+export class FirstComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+    
+  }
+
+  add(num1:number,num2:number){
+      return num1+num2;
+  }
+
+}
