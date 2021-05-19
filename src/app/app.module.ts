@@ -10,6 +10,8 @@ import { CustomerReservationComponent } from './customer-reservation/customer-re
 import { EmployeeComponent } from './employee/employee.component';
 import { EventTestComponent } from './event-test/event-test.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { ProductListComponent } from './product-list/product-list.component';
     CustomerReservationComponent,
     EmployeeComponent,
     EventTestComponent,
-    ProductListComponent
+    ProductListComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
