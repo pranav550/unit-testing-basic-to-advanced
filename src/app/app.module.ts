@@ -8,6 +8,8 @@ import { MatcherStringTestComponent } from './matcher-string-test/matcher-string
 import { MatcherArrayTestComponent } from './matcher-array-test/matcher-array-test.component';
 import { CustomerReservationComponent } from './customer-reservation/customer-reservation.component';
 import { EmployeeComponent } from './employee/employee.component';
+import { EventTestComponent } from './event-test/event-test.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EmployeeComponent } from './employee/employee.component';
     MatcherStringTestComponent,
     MatcherArrayTestComponent,
     CustomerReservationComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    EventTestComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
